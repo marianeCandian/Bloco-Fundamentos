@@ -6,14 +6,41 @@
     <style>
         h1 {
             font-size: 65px; color: orange;
+            font-family: sans-serif;
+            font-style:oblique;
+            font-family: Georgia, 'Times New Roman', serif;
+            line-height: 0in;
+        }
+
+        body{
+            font-size: 16px;
         }
 
         #lista-ordenada{
-            background-color: aqua;
+            text-align:left;
+            text-decoration:solid;
+            line-height: 40px;
+            font-family: Arial, Helvetica, sans-serif;
         }
         .cor-texto{
             background-color: blueviolet; color:brown;
         }
+
+        p{
+            font-weight: 600;
+            font-size: 3em;
+        }
+
+        #amarelo{
+            background-color: yellow;
+        }
+        #vermelho{
+            background-color: red;
+        }
+        #marrom{
+            background-color: brown;
+        }
+       
 
     </style>
   </head>
@@ -21,10 +48,10 @@
     <h1>Exercícios 3.2</h1>
     <p class="cor-texto">Qual é a sua cor favorita?</p>
     
-    <ul class="cor-texto" id="lista-ordenada">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+    <ul id="lista-ordenada">
+      <li id="amarelo">Amarelo</li>
+      <li id=vermelho>Vermelho</li>
+      <li id="marrom">Marrom</li>
     </ul>
   </body>
 </html>
