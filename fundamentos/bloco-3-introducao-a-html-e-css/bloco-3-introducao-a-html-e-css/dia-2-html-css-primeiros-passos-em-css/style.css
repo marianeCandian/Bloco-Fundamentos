@@ -1,0 +1,36 @@
+h1 {
+    font-size: 65px; color: orange;
+    font-family: sans-serif;
+    font-style:oblique;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 0in;
+}
+
+body{
+    font-size: 16px;
+}
+
+#lista-ordenada{
+    text-align:left;
+    text-decoration:solid;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cor-texto{
+    background-color: blueviolet; color:brown;
+}
+
+p{
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#amarelo{
+    background-color: yellow;
+}
+#vermelho{
+    background-color: red;
+}
+#marrom{
+    background-color: brown;
+}
