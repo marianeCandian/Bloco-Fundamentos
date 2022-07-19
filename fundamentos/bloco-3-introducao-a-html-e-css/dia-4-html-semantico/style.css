@@ -1,14 +1,19 @@
-body{
+*{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(236, 231, 225);
 }
 
 h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    vertical-align: middle;
+    text-align: center;
+    color: #ff7b00;
+    
 }
 .links{
-    display: inline-block;
+    display: inline;
+    color: blue;
+    margin-right: 40px;
+    text-decoration: none;
 
 }
 #titulo-da-tabela{
@@ -25,8 +30,21 @@ h1{
     float: none;
 }
 .pictures {
-
+    max-width: 100%;
+    height: auto;
+    text-align: center;
 }
 #video{
     float: inline-end;
+}
+]
+#contato{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-style: italic;
+
+}
+footer{
+    text-align: center;
+    color: #0a1128;
 }
