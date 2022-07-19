@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 231, 225);
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    vertical-align: middle;
+}
+.links{
+    display: inline-block;
+
+}
+#titulo-da-tabela{
+    line-height: 1.1em;
+    color: blue;
+    font-size: 90%;
+}
+.tabela{
+    width: 90px;
+    margin-left: 80%;
+    float: left;
+}
+.ssection3{
+    float: none;
+}
+.pictures {
+
+}
+#video{
+    float: inline-end;
+}
